@@ -1,0 +1,288 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #6A7B8B;
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    align-items: center;
+}
+
+.cafe-logo-white {
+    width: 120px;
+    height: auto;   
+}
+
+.my-navbar {
+    width: 85%;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+}
+
+.my-navbar li{
+    display: inline;
+    color: #FFFFFF;
+    margin-left: 2%;
+}
+
+.main {
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom: 3%;
+}
+
+.cafe-logo-dark {
+    float: center;
+    width: 140px;
+    height: auto; 
+    margin-top: 2%;  
+}
+
+.main-picture {
+    position: relative;
+    width:  75%;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+.main-picture-text{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-shadow: #6B6B6B 0em 0.1em 0.3em;
+    font-size: 28px;
+    font-weight: 700;
+}
+.text-info {
+    width: 25%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+.dark-grey-text {
+    font-size: 26px;
+    font-weight: bold !important;
+}
+
+.cards{
+    width: 86%;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.card {
+    padding: 4%;
+    margin-top: 4%;
+    width: 31%;
+    background-color: #BBC2C9;
+    margin-right: 3.5%;
+    box-shadow:  #6B6B6B 0em 0.1em 0.2em;
+    border-left: 0.1px solid #FFFFFF;
+}
+
+.card-last{
+    margin-right: 0px !important;
+}
+
+.white-icons{
+    width: 40%;
+    height: auto;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.title {
+    text-shadow: #6B6B6B 0em 0.1em 0.2em;
+}
+
+.small-font {
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.large-font {
+    font-size: 28px;
+    font-weight: 800 !important;
+}
+
+.button {
+    background-color: #6A7B8B;
+    width: 24%;
+    padding: 0.1%;
+   font-size: 14px;
+   border-radius: 10px;
+   margin: 5% 38% 6% 38%;
+   box-shadow:  #6B6B6B 0.2em 0.1em 0.2em;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.open-logo {
+    width: 90px;
+    height: auto;   
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+.small-dark-grey-text{
+    font-size: 18px;
+    
+}
+
+.margin-top {
+    margin-top: 4%;
+}
+.margin-top-b{
+    margin-top: 8%;
+}
+.center-text{
+    height: 80px;
+    line-height: 80px;
+}
+
+.lines {
+    width: 50%;    
+}
+
+.line {
+    width: 65%;
+  
+}
+
+.line-bottom {
+    margin-top: 5%;
+    width: 80%;
+}
+.line-bottom-last{
+    margin-left: 20%;
+}
+.line-last{
+    margin-left: 40%;
+}
+.centered {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.centered-2 {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.text {
+    font-size: 18px;
+}
+.dark-grey {
+    color: #5C5B5B;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.normal-text{
+    font-weight: normal;
+}
+.extra-bold {
+    font-weight: 800;
+}
+
+footer {
+    background-color: #6A7B8B;
+    padding: 3% 2% 2% 4%;
+    display: flex;
+}
+
+.footer-img {
+    width: 45px;
+    height: 67px;
+}
+
+.small-font {
+    font-size: 14px;
+    font-weight: normal;
+}
+.social-media {
+    margin-top: -5%;
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+}
+.social-icon {
+    width: 26px;
+    margin-right: 18%; 
+    
+}
+
+.centered-footer {
+    margin-top: 2%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.text-col {
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    text-align: left;
+}
+
+.big-image {
+    width: 36%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.margin-right {
+    margin-right: 10%;
+}
+
+.big-font {
+    font-size: 34px;
+}
+
+.big-image-2{
+    width: 45%;
+}
+
+.margin-left {
+    margin-left: 6%;
+}
+.no-margin-top{
+    margin-top: 0px
+}
+
+.margin-bottom{
+    margin-bottom: 8%;
+}
+
+.text-align-left {
+    margin-left: 25%;
+    text-align: left !important;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0px;
+}
+
+.large-image{
+    width: 55%;
+    margin-bottom: 1%;
+}
