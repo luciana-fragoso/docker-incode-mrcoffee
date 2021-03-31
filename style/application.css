@@ -152,11 +152,11 @@ header {
 }
 
 .lines {
-    width: 50%;    
+    width: 100%;    
 }
 
 .line {
-    width: 65%;
+    width: 100%;
   
 }
 
@@ -167,9 +167,7 @@ header {
 .line-bottom-last{
     margin-left: 20%;
 }
-.line-last{
-    margin-left: 40%;
-}
+
 .centered {
     margin-right: 15%;
     margin-left: 15%;
@@ -285,4 +283,82 @@ a {
 .large-image{
     width: 55%;
     margin-bottom: 1%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.display-block {
+    display: block;
+}
+
+
+.my-margin-bottom {
+    margin-bottom: 15%;
+}
+.my-margin-bottom-sm {
+    margin-bottom: 9%;
+}
+.block-responsive-last{
+    margin-right: 0px !important;
+}
+
+@media (max-width: 1200px) {
+    .text {
+        font-size: 28px;
+    }
+    .block-responsive {
+        width: 100%;
+        display: block !important;
+        margin: 0px !important;
+        
+    }
+    .big-text-responsive {
+        margin-top: 4%;
+        font-size: 28px;
+    }
+    .lines {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .my-margin-bottom {
+        margin-bottom: 1% !important;
+    }
+    .div-text-image {
+        width: 90%;
+      display: block !important;
+      margin-left: 5%;
+      margin-top: 3%;
+      margin-right: 5%;
+    }
+
+    .my-text{
+        width: 100% !important;
+        text-align: justify;
+        margin: 0px !important;
+    }
+
+    .my-text-no-margin {
+        margin-top: 1%;
+        margin-bottom: 2%;
+   }
+   .my-image-responsive {
+       width: 100%;
+       height: auto;
+       margin-left: 0px;
+       margin-right: 5%;
+   }
+   .my-margin-bottom-sm {
+    margin-bottom: 1% !important;
+}
+.block-responsive-last{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.margin-bottom{
+    margin-bottom: 1%;
+}
+  
 }
