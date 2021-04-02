@@ -17,7 +17,7 @@ header {
     height: auto;   
 }
 
-.my-navbar {
+.my-navbar, nav {
     width: 85%;
     float: right;
     text-align: right;
@@ -47,23 +47,25 @@ header {
     position: relative;
     width:  75%;
     height: auto;
-    margin-bottom: 4%;
 }
 
 .main-picture-text{
     position: absolute;
     top: 300px;
+    margin-top: 3%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -80%);
     color: #FFFFFF;
     text-shadow: #6B6B6B 0em 0.1em 0.3em;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
 }
 .text-info {
-    width: 25%;
     margin-right: 40%;
     margin-left: 40%;
+    font-size: 24px;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 .dark-grey-text {
     font-size: 26px;
@@ -79,7 +81,7 @@ header {
 
 .card {
     padding: 4%;
-    margin-top: 4%;
+  
     width: 31%;
     background-color: #BBC2C9;
     margin-right: 3.5%;
@@ -104,6 +106,9 @@ header {
     text-shadow: #6B6B6B 0em 0.1em 0.2em;
 }
 
+.my-font {
+    font-size: 24px;
+}
 .small-font {
     font-size: 14px;
     font-weight: bold !important;
@@ -116,11 +121,12 @@ header {
 
 .button {
     background-color: #6A7B8B;
-    width: 24%;
-    padding: 0.1%;
+    width: 240px;
+    
+    padding: 0.2%;
    font-size: 14px;
    border-radius: 10px;
-   margin: 5% 38% 6% 38%;
+   margin: 80px calc(calc(100% - 240px) / 2) 90px calc(calc(100% - 240px) / 2);
    box-shadow:  #6B6B6B 0.2em 0.1em 0.2em;
 }
 
@@ -147,8 +153,9 @@ header {
     margin-top: 8%;
 }
 .center-text{
+ 
     height: 80px;
-    line-height: 80px;
+   
 }
 
 .lines {
@@ -196,11 +203,13 @@ header {
 
 footer {
     background-color: #6A7B8B;
-    padding: 3% 2% 2% 4%;
+    height: 100px;
     display: flex;
+    align-items: center;
 }
 
 .footer-img {
+    padding-left: 35px;
     width: 45px;
     height: 67px;
 }
@@ -222,10 +231,9 @@ footer {
 }
 
 .centered-footer {
-    margin-top: 2%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   width: 190px;
+   margin-left: calc(calc(calc(100% - 190px)/2 - 80px));
+   margin-top: -2%;
 }
 
 a {
@@ -302,7 +310,42 @@ a {
 .block-responsive-last{
     margin-right: 0px !important;
 }
+@media (max-width: 720px) {
 
+.my-font {
+    font-size: 18px;
+}
+.cards {
+    display: block;
+}
+
+.card {
+    width: 90%;
+    margin: 5% 0px 5% 0px;
+}
+
+.white-icons {
+    width: 25%;
+}
+
+.small-font {
+    font-size: 20px;
+}
+
+.text-info {
+    font-size: 18px !important;
+    margin: 0px 4% 0px 4% !important;
+    text-align: center;
+}
+.c-text{
+    text-align: center;
+}
+
+.text-align-left{
+    margin: 0px;
+}
+
+}
 @media (max-width: 1200px) {
     .text {
         font-size: 28px;
@@ -313,9 +356,12 @@ a {
         margin: 0px !important;
         
     }
+    .margin-top-sm{
+        margin-top: 2% !important;
+    }
     .big-text-responsive {
-        margin-top: 4%;
-        font-size: 28px;
+        margin-top: 7%;
+        font-size: 22px;
     }
     .lines {
         width: 90%;
@@ -335,7 +381,7 @@ a {
 
     .my-text{
         width: 100% !important;
-        text-align: justify;
+        text-align: center;
         margin: 0px !important;
     }
 
@@ -360,5 +406,7 @@ a {
 .margin-bottom{
     margin-bottom: 1%;
 }
-  
+
+
+
 }
