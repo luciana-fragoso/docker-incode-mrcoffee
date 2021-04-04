@@ -10,6 +10,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800;900&display=swap');
   </style>
   <title>Mr. Coffee</title>
+  <script src="form.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,25 @@
   </header>
   <section class="main">
     <img class="cafe-logo-dark" src="assets/logo_mrcoffee.png" alt="Logo Mr. Coffee" />
-    <h1 class="dark-grey big-font div-text-image normal-text no-margin-top">We are waiting for you ! </h1>
+    <h1 class="dark-grey  div-text-image normal-text no-margin-top">Tell us everything ! </h1>
+    <section class="contact-form">
+    <div class="contact-form">
+      <form id="contact-form">
+        <h4 class="dark-grey input-header">Surname *</h4>
+        <input type="text" id="surname" />
+        <h4 class="dark-grey input-header">First Name *</h4>
+        <input type="text" id="firstname"/>
+        <h4 class="dark-grey input-header">Telephone</h4>
+        <input type="tel" id="telephone" />
+        <h4 class="dark-grey input-header">E-mail *</h4>
+        <input type="email" id="email" />
+        <h4 class="dark-grey input-header">Message *</h4>
+        <textarea class="textarea" id="message"></textarea>
+        <button class="my-button white-text" id="my-button" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <h1 class="dark-grey div-text-image normal-text no-margin-top">We are waiting for you ! </h1>
     <div class="text-align-left">
         <h2 class="dark-grey extra-bold no-margin-bottom c-text">Mr. Coffee</h2>
         <h2 class="dark-grey normal-text no-margin-top no-margin-bottom c-text">15 place Jules Guesde</h2>
