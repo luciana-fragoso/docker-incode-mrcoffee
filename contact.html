@@ -14,6 +14,31 @@
 </head>
 
 <body>
+  <div id="modal-mandatory" class="modal">
+
+    <!-- Modal content -->
+   <div class="modal-content">
+      <div class="my-modal-text">
+        <h3 class="dark-grey">All fields marked * are mandatory</h3>
+        <button id="btn-mandatory" class=" white-text my-button close secondCloseBtn">Close</button>
+      </div>
+  </div>
+  </div>
+  
+  
+  <div id="modal-form" class="modal">
+  <div class="modal-content">
+    <div class="modal-img">
+      <img class="my-modal-image" src="assets/logo_dark.png" alt="Logo Mr. Coffee" />
+    </div>
+  <div class="my-modal-text">
+    <h1 class="dark-grey-text dark-grey">Thank you</h1>
+    <h3 class="dark-grey">Your message has been sent !</h3>
+    <p class="dark-grey my-p bold-text">We will try to answer them as well as possible as soon as possible. See you soon at Mr. Coffee</p>
+    <button id ="btn-form" class=" white-text my-button close">Close</button>
+</div>
+</div>
+  </div>
   <header>
     <img class="cafe-logo-white" src="assets/full_logo_white.png" alt="White Logo Coffee" />
     <nav>
@@ -26,25 +51,25 @@
   </header>
   <section class="main">
     <img class="cafe-logo-dark" src="assets/logo_mrcoffee.png" alt="Logo Mr. Coffee" />
-    <h1 class="dark-grey  div-text-image normal-text no-margin-top">Tell us everything ! </h1>
+    <h2 class="dark-grey  div-text-image normal-text no-margin-top">Tell us everything ! </h2>
     <section class="contact-form">
     <div class="contact-form">
       <form id="contact-form">
         <h4 class="dark-grey input-header">Surname *</h4>
-        <input type="text" id="surname" />
+        <input type="text" id="surname" required/>
         <h4 class="dark-grey input-header">First Name *</h4>
-        <input type="text" id="firstname"/>
+        <input type="text" id="firstname" required/>
         <h4 class="dark-grey input-header">Telephone</h4>
         <input type="tel" id="telephone" />
         <h4 class="dark-grey input-header">E-mail *</h4>
-        <input type="email" id="email" />
+        <input type="email" id="email" required/>
         <h4 class="dark-grey input-header">Message *</h4>
-        <textarea class="textarea" id="message"></textarea>
+        <textarea class="textarea" id="message" required></textarea>
         <button class="my-button white-text" id="my-button" type="submit">Send</button>
       </form>
     </div>
   </section>
-  <h1 class="dark-grey div-text-image normal-text no-margin-top">We are waiting for you ! </h1>
+  <h2 class="dark-grey div-text-image normal-text no-margin-top">We are waiting for you ! </h2>
     <div class="text-align-left">
         <h2 class="dark-grey extra-bold no-margin-bottom c-text">Mr. Coffee</h2>
         <h2 class="dark-grey normal-text no-margin-top no-margin-bottom c-text">15 place Jules Guesde</h2>
