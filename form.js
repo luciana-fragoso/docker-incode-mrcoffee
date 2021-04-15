@@ -16,7 +16,7 @@ window.onload = function() {
         var fields = ["surname","firstname","telephone","email","message"];
 
         
-    
+            if (checkEmptyFields(fields,modalRequire)) {
             if (validateTelephone(telephone) && validateEmail(email)){
                 for (field of fields) {
                     let input = field;
@@ -30,7 +30,7 @@ window.onload = function() {
                 }
                 modalForm.style.display = "block";
                 emptyFields(fields);      
-            }   
+            }   }
         
     }
 
@@ -79,7 +79,7 @@ function  emptyFields(fields){
   }
 
 
-  /*
+  
 function checkEmptyFields(fields,modalRequire){ 
     for (field of fields){
         if (field !== "telephone"){
@@ -92,4 +92,4 @@ function checkEmptyFields(fields,modalRequire){
         
     }
     return true;
-}*/
+}
